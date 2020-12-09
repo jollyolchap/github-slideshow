@@ -9,7 +9,7 @@ jobs:
     executor: ruby/default
     steps:
       - checkout
-      - run:fast_rufast_run
+      - run:
           name: Which bundler?
           command: bundle -v
       - ruby/bundle-install
