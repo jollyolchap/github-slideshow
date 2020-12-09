@@ -9,7 +9,7 @@ jobs:
     executor: ruby/default
     steps:
       - checkout
-      - run:
-          name: Which bundler?
+      -jolly
+          name: jolly
           command: bundle -v
       - ruby/bundle-install
