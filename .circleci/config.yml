@@ -9,7 +9,7 @@ jobs:
     executor: ruby/default
     steps:
       - checkout
-      -jolly
-          name: jolly
+      - run:
+          name: advantage
           command: bundle -v
       - ruby/bundle-install
